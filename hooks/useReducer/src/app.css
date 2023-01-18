@@ -1,0 +1,44 @@
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #537a5a;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #444;
+  width: 80vh;
+  height: 150px;
+  padding: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.eg-one,
+.eg-two,
+.eg-us {
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+button {
+  cursor: pointer;
+  width: auto;
+  text-transform: uppercase;
+  border-radius: 5px;
+  height: 35px;
+  border: none;
+  box-shadow: 2px 2px 5px #444;
+  margin: 0 10px;
+}
+
+button:hover {
+  background-color: #9ae19d;
+}
